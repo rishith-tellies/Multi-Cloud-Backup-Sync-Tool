@@ -1,5 +1,23 @@
+# Your important rules
 .venv/
 __pycache__/
 .env
 credentials.json
 token.json
+
+# Python standard ignores
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
